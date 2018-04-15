@@ -1,0 +1,18 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "testando GIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/gitLucasHenrique/test"
+  },
+  "keywords": [
+    "teste"
+  ],
+  "author": "lucas henrique ronqui de souza",
+  "license": "ISC"
+}
