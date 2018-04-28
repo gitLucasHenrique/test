@@ -31,6 +31,6 @@ app.get('/', function (req, res) {
   app.use('/public', express.static('assets'));
 })
 
-app.listen(80, function () {
-  console.log('Example app listening on port 80!')
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
 })
