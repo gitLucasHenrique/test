@@ -1,0 +1,34 @@
+{
+  "animes":{
+    "episodio":"http",
+    "imagem":"linkIMG",
+    "links":{
+      "links720":{
+        "link720_1":"linkaaaaaaaaaaaaaaa",
+        "link720_2":"linkaaaaaaaaaaaaaaa",
+        "link720_3":"linkaaaaaaaaaaaaaaa"
+      },
+      "links1080":{
+        "link1080_1":"linkaaaaaaaaaaaaaaa",
+        "link1080_2":"linkaaaaaaaaaaaaaaa",
+        "link1080_3":"linkaaaaaaaaaaaaaaa"
+      }
+    }
+  },
+  "animes":{
+    "episodio":"http",
+    "imagem":"linkIMG",
+    "links":{
+      "links720":{
+        "link720_1":"linkaaaaaaaaaaaaaaa",
+        "link720_2":"linkaaaaaaaaaaaaaaa",
+        "link720_3":"linkaaaaaaaaaaaaaaa"
+      },
+      "links1080":{
+        "link1080_1":"linkaaaaaaaaaaaaaaa",
+        "link1080_2":"linkaaaaaaaaaaaaaaa",
+        "link1080_3":"linkaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

@@ -4,17 +4,19 @@ const path = require('path');
 const request = require('request');
 const fs = require('fs');
 
-setInterval(function(){
-  let dataAual = new Date()
-  let dia = dataAual.getUTCDate()
-  let mes = dataAual.getUTCMonth() + 1
-  let ano = dataAual.getUTCFullYear()
-  let hora = dataAual.getHours()
-  let minuto = dataAual.getMinutes()
+/*
+let dataAual = new Date()
+let dia = dataAual.getUTCDate()
+let mes = dataAual.getUTCMonth() + 1
+let ano = dataAual.getUTCFullYear()
+let hora = dataAual.getHours()
+let minuto = dataAual.getMinutes()
+*/
 
+setInterval(function(){
   request({url: 'https://www.animestelecine.net/'},
       function(error, response, body){
-        fs.writeFile("./assets/db/teste-"+ano+"-"+mes+"-"+dia+"-"+hora+"-"+minuto+".txt",body,function(err){
+        fs.writeFile("./assets/db/requestResult.txt",body,function(err){
           if(err)
 				      console.log(err)
         })
@@ -23,8 +25,8 @@ setInterval(function(){
   			if(error)
   				console.log(error)
   		})
-}, 60100)
-
+}, 5000)//5segs
+//}, 35000)//35segs
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname+'/index.html'));
