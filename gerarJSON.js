@@ -8,8 +8,9 @@ fs.readFile('./assets/db/requestResult.txt', function(err, data) {
     let animesList = []
     let strHTML = data.toString('utf8')
     let allH2 = strHTML.match(/<h2>[\s\S]*?<div class="titulo-down-epi">/g)
+
     for ( let i = 0; i < allH2.length; i++ ){
-      animesList = animesList + "'Anime_Episodio' : " + "'" + allH2[i].replace(/<h2><a href="[\s\S]*?>|<meta[\s\S]*?<div class=\"titulo-down-epi\">|<span[\s\S]*?<div class=\"titulo-down-epi\"\>/g,"") + "',"
+      animesList = animesList + "'" + allH2[i].replace(/<h2><a href="[\s\S]*?>|<meta[\s\S]*?<div class=\"titulo-down-epi\">|<span[\s\S]*?<div class=\"titulo-down-epi\"\>/g,"") + "',"
       animesList = animesList.replace(/\n|\r|\t/g, "")
       animesList = animesList.replace(/&[\s\S]*? /g, "")
       }
