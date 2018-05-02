@@ -6,8 +6,14 @@ let dia = dataAual.getUTCDate()
 let mes = dataAual.getUTCMonth() + 1
 let ano = dataAual.getUTCFullYear()
 
+let str = "testeepis"
 
-console.log("dia "+ dia + " mes "+ mes + " ano " + ano)
+if (str.toString().match("Epis"))
+    console.log("tem Epis")
+else
+    console.log("não tem Epis")
+
+console.log("dia " + dia + " mes " + mes + " ano " + ano)
 
 /*
 setInterval(function(){

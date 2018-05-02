@@ -1,5 +1,6 @@
 {
     "animes1": {
+        "nome": "aaaaaaaaa",
         "episodio": "http",
         "imagem": "linkIMG",
         "links": {
@@ -16,6 +17,7 @@
         }
     },
     "animes2": {
+        "nome": "aaaaaaaaa",
         "episodio": "http",
         "imagem": "linkIMG",
         "links": {
